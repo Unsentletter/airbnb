@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'carrierwave', '>= 1.0.0.beta', '< 2.0'
+gem 'cloudinary'
 gem 'growlyflash'
 gem 'devise'
 gem 'bootstrap-sass', '~> 3.3.6'
