@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'carrierwave', '>= 1.0.0.beta', '< 2.0'
+gem 'stripe'
+gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
 gem 'cloudinary'
 gem 'growlyflash'
 gem 'devise'
